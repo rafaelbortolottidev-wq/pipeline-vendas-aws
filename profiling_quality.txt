@@ -1,0 +1,64 @@
+﻿
+Arquivo: olist_customers_dataset.csv
+Linhas: 99,441
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+Nenhum
+
+Arquivo: olist_geolocation_dataset.csv
+Linhas: 1,000,163
+Duplicadas alÚm da primeira: 261,831
+Valores ausentes por coluna:
+Nenhum
+
+Arquivo: olist_order_items_dataset.csv
+Linhas: 112,650
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+Nenhum
+
+Arquivo: olist_order_payments_dataset.csv
+Linhas: 103,886
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+Nenhum
+
+Arquivo: olist_order_reviews_dataset.csv
+Linhas: 99,224
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+review_comment_title      87656
+review_comment_message    58247
+
+Arquivo: olist_orders_dataset.csv
+Linhas: 99,441
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+order_approved_at                 160
+order_delivered_carrier_date     1783
+order_delivered_customer_date    2965
+
+Arquivo: olist_products_dataset.csv
+Linhas: 32,951
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+product_category_name         610
+product_name_lenght           610
+product_description_lenght    610
+product_photos_qty            610
+product_weight_g                2
+product_length_cm               2
+product_height_cm               2
+product_width_cm                2
+
+Arquivo: olist_sellers_dataset.csv
+Linhas: 3,095
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+Nenhum
+
+Arquivo: product_category_name_translation.csv
+Linhas: 71
+Duplicadas alÚm da primeira: 0
+Valores ausentes por coluna:
+Nenhum
