@@ -6,7 +6,7 @@ POR QUÊ: Validar a estrutura antes da carga no Amazon Redshift.
 from pathlib import Path
 import duckdb
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 EXPORT_DIR = BASE_DIR / "data" / "redshift_export"
 
 for arquivo in sorted(EXPORT_DIR.glob("*.parquet")):

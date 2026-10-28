@@ -9,7 +9,7 @@ import pandas as pd
 
 
 def main():
-    pasta = Path(__file__).resolve().parent / "data" / "raw"
+    pasta = Path(__file__).resolve().parent.parent / "data" / "raw"
 
     pagamentos = pd.read_csv(
         pasta / "olist_order_payments_dataset.csv", dtype="string"

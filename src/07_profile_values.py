@@ -9,7 +9,7 @@ import pandas as pd
 
 
 def main():
-    pasta = Path(__file__).resolve().parent / "data" / "raw"
+    pasta = Path(__file__).resolve().parent.parent / "data" / "raw"
 
     campos = {
         "olist_order_items_dataset.csv": ["price", "freight_value"],

@@ -1,6 +1,5 @@
 <img width="1672" height="941" alt="pipeline_do_data_warehouse_olist_na_aws" src="https://github.com/user-attachments/assets/ac1ee938-b0a9-4d07-876a-e785a66d3626" />
 
-
 # Data Warehouse Olist — AWS Redshift
 
 Data Warehouse de e-commerce construído com **Python, SQL e Amazon Redshift Serverless**, utilizando dados públicos do Olist.

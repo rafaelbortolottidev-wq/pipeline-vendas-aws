@@ -106,7 +106,7 @@ Essa junção pode multiplicar registros. Para comparações, agregue cada fato 
 
 No PowerShell, execute os scripts a partir da raiz do projeto utilizando o Python do ambiente virtual. Exemplo:
 
-    .\.venv\Scripts\python.exe 17_validate_dw.py
+    .\.venv\Scripts\python.exe src\17_validate_dw.py
 
 Com os CSVs disponíveis em `data/raw/`, a construção e a carga local seguem a ordem dos scripts 10 a 16. Depois são executadas a validação, a consulta e a exportação.
 

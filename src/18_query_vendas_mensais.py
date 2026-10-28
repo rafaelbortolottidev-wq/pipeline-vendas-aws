@@ -8,7 +8,7 @@ from pathlib import Path
 import duckdb
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DB_PATH = BASE_DIR / "data" / "warehouse" / "vendas.duckdb"
 
 
