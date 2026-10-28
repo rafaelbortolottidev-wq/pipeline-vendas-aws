@@ -1,4 +1,4 @@
-![Arquitetura do Data Warehouse Olist na AWS](docs/imagens/arquitetura-olist.png)
+<img width="1672" height="941" alt="pipeline_do_data_warehouse_olist_na_aws" src="https://github.com/user-attachments/assets/ac1ee938-b0a9-4d07-876a-e785a66d3626" />
 
 # Data Warehouse Olist — AWS Redshift
 

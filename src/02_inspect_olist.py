@@ -9,7 +9,7 @@ import pandas as pd
 
 
 def main():
-    pasta = Path(__file__).resolve().parent / "data" / "raw"
+    pasta = Path(__file__).resolve().parent.parent / "data" / "raw"
     arquivos = sorted(pasta.glob("*.csv"))
 
     if not arquivos:

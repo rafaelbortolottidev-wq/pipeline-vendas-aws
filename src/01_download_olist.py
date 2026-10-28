@@ -13,7 +13,7 @@ def main():
     origem = Path(
         kagglehub.dataset_download("olistbr/brazilian-ecommerce")
     )
-    destino = Path(__file__).resolve().parent / "data" / "raw"
+    destino = Path(__file__).resolve().parent.parent / "data" / "raw"
     destino.mkdir(parents=True, exist_ok=True)
 
     arquivos = sorted(origem.rglob("*.csv"))

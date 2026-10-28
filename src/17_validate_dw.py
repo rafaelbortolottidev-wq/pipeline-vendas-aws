@@ -9,7 +9,7 @@ import duckdb
 import pandas as pd
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DB_PATH = BASE_DIR / "data" / "warehouse" / "vendas.duckdb"
 RAW_DIR = BASE_DIR / "data" / "raw"
 

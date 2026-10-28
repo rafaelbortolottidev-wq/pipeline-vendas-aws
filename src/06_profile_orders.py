@@ -10,7 +10,7 @@ import pandas as pd
 
 def main():
     arquivo = (
-        Path(__file__).resolve().parent
+        Path(__file__).resolve().parent.parent
         / "data" / "raw" / "olist_orders_dataset.csv"
     )
     df = pd.read_csv(arquivo, dtype="string")

@@ -6,7 +6,7 @@ POR QUÊ: Preparar os dados para carga no Amazon Redshift via S3.
 from pathlib import Path
 import duckdb
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DB_PATH = BASE_DIR / "data" / "warehouse" / "vendas.duckdb"
 EXPORT_DIR = BASE_DIR / "data" / "redshift_export"
 

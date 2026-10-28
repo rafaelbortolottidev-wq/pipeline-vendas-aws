@@ -20,7 +20,7 @@ CHAVES = {
 
 
 def main():
-    pasta = Path(__file__).resolve().parent / "data" / "raw"
+    pasta = Path(__file__).resolve().parent.parent / "data" / "raw"
 
     for nome, chave in CHAVES.items():
         df = pd.read_csv(pasta / nome, dtype="string")
